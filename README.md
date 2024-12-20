@@ -55,7 +55,7 @@ This portfolio is built using the following technologies:
 
 ## License
 
-This project is licensed under develpment.
+This project is under develpment.
 
 ---
 
