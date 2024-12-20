@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aditya Kumar</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -25,41 +25,73 @@
           <div class="hero-text">
               <h4>Hello, I'm</h4>
               <h2>Aditya Kumar</h2>
-              <p>Web Developer | Designer | Tech Enthusiast</p>
-              <a href="https://drive.google.com/uc?export=download&id=1xg_x64bIwLME-Z1gTPZEDvADpmzzF7Co" class="btn">Download Resume</a>
+              <p>Full Stack Developer | Ex-Trainee@ <a href="https://www.intel.com/content/www/us/en/homepage.html">Intel</a> | Tech Enthusiast</p>
+              <a href="https://drive.google.com/uc?export=download&id=1luZdWfglBi3XJ-uSRMNbN1uihZDj0Gqv" class="btn">Download Resume</a>
           </div>
       </div>
     </header>
 
     <section id="about">
         <div class="container">
-            <h2>About Me</h2>
-            <p>Current student at chandigarh University, pursuing my bachelor's degree in Computer application.<br>
-              Proficient in Full Stack web development, implementing and strong problemm solving skills.
-              </p>
+            <h2 class="head">About Me</h2>
+            <div class="about-sections">
+                <!-- Education Section -->
+                <div class="about-category">
+                    <h3>Education</h3>
+                    <p class="content">Bachelor's Degree in Computer Application<br>Chandigarh University, 2022 - (Present)</p>
+                    <button class="toggle-details">More Details</button>
+                    <div class="details" style="display: none;">
+                        <p>Specialization in Full Stack Development. Participated in various hackathons and coding competitions.</p>
+                        <button class="thumbs-up" style="display: none;">👍 Got it!</button>
+                    </div>
+                </div>
+            
+                <!-- Aspirations Section -->
+                <div class="about-category">
+                    <h3>Aspirations</h3>
+                    <p class="content">To become a full-stack developer and contribute to open-source projects while constantly learning new technologies.</p>
+                    <button class="toggle-details">More Details</button>
+                    <div class="details" style="display: none;">
+                        <p>I aim to work on innovative projects that leverage technology to solve real-world problems.</p>
+                        <button class="thumbs-up" style="display: none;">👍 Got it!</button>
+                    </div>
+                </div>
+            
+                <!-- Hobbies Section -->
+                <div class="about-category">
+                    <h3>Hobbies</h3>
+                    <p class="content">Coding, Reading Tech Blogs, Playing Video Games, and Traveling.</p>
+                    <button class="toggle-details">More Details</button>
+                    <div class="details" style="display: none;">
+                        <p>I enjoy exploring new places, gaming with friends, and staying updated with the latest tech trends.</p>
+                        <button class="thumbs-up" style="display: none;">👍 Got it!</button>
+                    </div>
+                </div>
+            </div>
+          
         </div>
     </section>
 
     <section id="projects">
         <div class="container">
-            <h2>My Projects</h2>
+            <h2 class="head">My Projects</h2>
             <div class="project">
-                <img src="https://via.placeholder.com/300" alt="Project 1">
-                <h3>Project Title 1</h3>
-                <p>Description of project 1. What technologies were used? What was the goal?</p>
-                <a href="#" class="btn">View Project</a>
+                <img src="https://i.imgur.com/M4eexWh.png/300" alt="Project 1">
+                <h3>Ping - Go Chat Application</h3>
+                <p>Golang | Redis | Websocket | React</p>
+                <a href="#projects" class="btn">Deployment pending...</a>
             </div>
             <div class="project">
-                <img src="https://via.placeholder.com/300" alt="Project 2">
-                <h3>Project Title 2</h3>
-                <p>Description of project 2. What technologies were used? What was the goal?</p>
-                <a href="#" class="btn">View Project</a>
+                <img src="https://i.imgur.com/sGOvSlr.png/300" alt="Project 2">
+                <h3>Tic Tac Toe - Unbeatable AI Edition Game</h3>
+                <p>Node.js | Express.js | React | MongoDB</p>
+                <a href="#projects" class="btn">Deployment pending...</a>
             </div>
             <div class="project">
-                <img src="https://via.placeholder.com/300" alt="Project 3">
-                <h3>Project Title 3</h3>
-                <p>Description of project 3. What technologies were used? What was the goal?</p>
-                <a href="#" class="btn">View Project</a>
+                <img src="https://i.imgur.com/Pa2oTGO.png/300" alt="Project 3">
+                <h3>Financial Transaction Fraud Detection Application</h3>
+                <p>Python | Pandas | ML | Jupyter</p>
+                <a href="https://drive.google.com/file/d/1LN126AlSuDTEhAF1fdHotfiKkN5ZQmqW/view?usp=drive_link" class="btn" target="_blank">View Certificate</a>
             </div>
         </div>
     </section>
@@ -67,7 +99,7 @@
     <!-- Skills Section -->
     <section id="skills">
         <div class="container">
-            <h2>Skills</h2>
+            <h2 class="head">Skills</h2>
 
             <!-- Skill Boxes -->
             <div class="skills-container">
@@ -79,8 +111,6 @@
                         <li>HTML & CSS</li>
                         <li>JavaScript</li>
                         <li>React.js</li>
-                        <li>Vue.js</li>
-                        <li>Bootstrap</li>
                     </ul>
                 </div>
 
@@ -90,8 +120,8 @@
                     <ul class="skills-list">
                         <li>Node.js</li>
                         <li>Express.js</li>
-                        <li>Django (Python)</li>
-                        <li>Ruby on Rails</li>
+                        <li>Golang</li>
+                        <li>Python</li>
                         <li>RESTful APIs</li>
                     </ul>
                 </div>
@@ -102,8 +132,7 @@
                     <ul class="skills-list">
                         <li>MySQL</li>
                         <li>MongoDB</li>
-                        <li>PostgreSQL</li>
-                        <li>SQLite</li>
+                        <li>Redis</li>
                         <li>NoSQL Databases</li>
                     </ul>
                 </div>
@@ -112,27 +141,18 @@
 
         </div>
     </section>
-
+    <div class="arrow-container">
+        <a href="#">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEUAAAD////x8fEVFRWZmZk3Nzetra309PT5+fng4OAfHx/r6+ufn5/X19dZWVn39/eEhITPz8+1tbW/v7/l5eVJSUlycnIODg5nZ2dAQEApKSkuLi4aGhp4eHg7OzuPj49RUVErKyvGxsZqamqJiYmlpaXS0tKcnJx8ziR0AAADoklEQVR4nO2d6VbiQBCFLRATUAjKEqMjIgq+/xvKnPbMREM6Sy+3O+d+L5D6ftxULxW4uiKEEEIIIYQQQgDc7dEVOOZD5ugS3FIkInfoIlzyPJUzS3QZDln9FZRshq7DGUtRzP+gK3HEIvk2lBt0KW6YTeUfW3QxTlj9F5Rsg67GAUspcz+8KD6mPwzlAV2Qddbyixd0RZZZ/RaU0QJdk1WuK4IiU3RRNikuCA6qK05uLxrKK7owa1RDqEh26MoscSmEivUwuuLvTji4KO6m9YLD2CsedIIi8S9QX/WCcnpCV2jIVhNCxQpdohl5TSccThTvmwUliXmBWt8Jy0zjjeJjK8GIozgZtTSMdoFatxytkuzRtfbiprXgWTFHV9uDRQfBKI9tisrBjJ5rdMGdadMJfxBbV7zrKijTuO5rtp0FRQ4xvW3qDmb0xNQV530EY4pi9xAq1hN05S156Sl4jiK69HY8Z70NI4liw8GMluwRXX0LHgwERW7Dj+K7kWAEUSySZgk9R7SCntnJVFDSd7SEli57wjqSMdpCQ/9OWCbgKYZNr+VolWD3irn2DqYLoXZFGyFUrAu0y0U+rAmeoxji22bT+nS0DSF2RWshVIQ322e2HK1yG9rVqZ1OWCawiffLI0FmBDXF8NTzYEZLGlIUbYdQkYUzULRsrrYXp1C64sJqJywTSFd8s9wJy4QxxdD+IrQ7o2e03VXzSJAZc/x9zcL4YEYP/urU0qa3HnRXdBlCxWgPFXTVCctAF6jdphH6AozizGEnLAP7+CR3H0IFbLav3VyeDUAfn+y9CYKiuOs4EmQG4urU5CK0O6n/GVR/IVSsfSvqPhNxg+co9hsJMsPvXtFvCBWpz67oO4SKub/tcPNnIm7wN/Hu7OSpCU9RHHcejrVG4ufq9BMmeO6KPgT97Anr8BDFAtAJyzhfoOaITlgm3Ts2PIIFRUZuF6imc3k2cLpA3YNDqPh0aHhIkyaM609HTY9w+fM9xaSJwni9c3xresYOepeRGxsGO9T2zZiGNKQhHBrSkIZ4aEhDGuKhIQ1piIeGNKQhHhrSkIZ4aEhDGuKhIQ1piIeGNKQhHhrSkIZ4aEhDGuKhIQ1piIeGNKQhHhrSkIZ4aEhDGuKhIQ1piIeGNKQhHhrSkIZ4aEhDGuKhIQ1piIeGNKQhHhrSkIZ4aEhDGuKhIQ1piIeGNKQhnnFmaujy17ptkB9vDPHzFxaEEEIIIYQQQn7yBcHJS9P1lc47AAAAAElFTkSuQmCC" alt="Up Arrow" class="up-arrow" />
+        </a>
+    </div>
+    
     <!-- Contact Section -->
     <section id="contact">
       <div class="container">
         <h2>Contact Me</h2>
-        <div class="social-icons">
-            <a href="tel:+918102256693" title="Call">
-                <i class="fa fa-phone"></i>
-            </a>
-            <a href="mailto:aditya022061@mail.com" title="Email">
-                <i class="fa fa-envelope"></i>
-            </a>
-            <a href="http://www.linkedin.com/in/go-on-adityakumar" target="_blank" title="LinkedIn">
-                <i class="fa fa-linkedin"></i>
-            </a>
-            <a href="https://www.instagram.com/iamrajputaditya/" target="_blank" title="Instagram">
-                <i class="fa fa-instagram"></i>
-            </a>
-            <a href="https://github.com/theAdityah" target="_blank" title="GitHub">
-                <i class="fa fa-github"></i>
-            </a>
+        <div>
+          <p>Mobile : +91 8102256694 | Email : <a href="mailto:aditya022061@gmail.com" target="_blank" title="Email">aditya022061@gmail.com</a></p>
         </div>
     </div>
     </section>
@@ -140,8 +160,25 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            &copy; 2024 Aditya Kumar. All Rights Reserved.
+            Copyright &copy; 2024 Aditya Kumar. All Rights Reserved.
         </div>
+        <div class="social-icons">
+          <a href="tel:+918102256693" title="Call">
+              <i class="fa fa-phone"></i>
+          </a>
+          <a href="mailto:aditya022061@mail.com" title="Email">
+              <i class="fa fa-envelope"></i>
+          </a>
+          <a href="http://www.linkedin.com/in/go-on-adityakumar" target="_blank" title="LinkedIn">
+              <i class="fa fa-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/iamrajputaditya/" target="_blank" title="Instagram">
+              <i class="fa fa-instagram"></i>
+          </a>
+          <a href="https://github.com/theAdityah" target="_blank" title="GitHub">
+              <i class="fa fa-github"></i>
+          </a>
+      </div>
     </footer>
 
     <!-- JavaScript -->
@@ -149,4 +186,3 @@
 
 </body>
 </html>
-
