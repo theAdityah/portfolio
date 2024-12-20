@@ -71,7 +71,10 @@ body {
 h2 {
   font-size: 80px; /* Make the name larger */
   margin: 0; /* Remove default margin */
+}
+.head{
   margin-bottom: 80px;
+
 }
 
 .hero-text p {
@@ -98,6 +101,58 @@ section {
  padding: 60px 0;
  text-align: center; /* Center all section titles */
 }
+
+.about-sections {
+  display: flex; /* Align about sections horizontally */
+  justify-content: space-around; /* Space between sections */
+  margin-top: 30px; /* Space above the sections */
+}
+
+.about-category {
+  background-color: #fff; /* Background for about boxes */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside boxes */
+  width: calc(30% - 20px); /* Width of each about box */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px; /* Add shadow effect */
+  transition: transform 0.3s ease; /* Smooth scale effect on hover */
+}
+
+.about-category:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.about-category h3 {
+  color: #007BFF; /* Change header color */
+}
+
+.toggle-details {
+  background-color: #007BFF; /* Button color */
+  color: white; /* Button text color */
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-details:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.details {
+  margin-top: 10px;
+}
+
+.thumbs-up {
+    background-color: #28a745; /* Green background for thumbs up button */
+    color: white; /* Button text color */
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
 
 .project {
  display: inline-block;
@@ -131,6 +186,19 @@ section {
  .skills-list.li {
   padding: 30px;
 }
+
+.arrow-container {
+  display: flex; /* Use flexbox to center the content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100px; /* Set a height for vertical centering */
+}
+
+.up-arrow {
+  width: 70px; /* Set the width of the arrow image */
+  height: auto; /* Maintain aspect ratio */
+}
+
 
 footer {
  background: #4fcdff;
