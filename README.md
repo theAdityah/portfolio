@@ -16,9 +16,9 @@ I am currently pursuing a Bachelor's Degree in Computer Applications at Chandiga
 
 ## Skills
 
-- **Frontend Development**: HTML, CSS, JavaScript, React.js, Vue.js
-- **Backend Development**: Node.js, Express.js, Django (Python), Ruby on Rails
-- **Database Management**: MySQL, MongoDB, PostgreSQL
+- **Frontend Development**: HTML, CSS, JavaScript, React.js,
+- **Backend Development**: Node.js, Express.js,Golang, Django (Python)
+- **Database Management**: MySQL, MongoDB, Redis
 - **Version Control**: Git, GitHub
 - **Other Skills**: Responsive Web Design, UI/UX Design, RESTful APIs
 
@@ -51,10 +51,6 @@ This portfolio is built using the following technologies:
 - HTML5
 - CSS3
 - JavaScript
-- React.js
-- Node.js
-- Express.js
-- MongoDB
 - Git & GitHub
 
 ## License
