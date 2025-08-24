@@ -27,6 +27,33 @@ body {
   padding: 50px 0;
 }
 
+.hero-icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.hero-icons button,
+.hero-icons .resume-btn {
+  background: none;
+  border: none;
+  color: var(--accent-color);
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.hero-icons .resume-btn {
+  text-decoration: none;
+}
+
+.hero-icons button:hover,
+.hero-icons .resume-btn:hover {
+  transform: scale(1.2);
+  color: #ff9800; /* accent hover color */
+}
+
+
 .hero-content {
   display: flex;
   flex-wrap: wrap;
@@ -295,3 +322,4 @@ section h2::after {
     flex-direction: column;
   }
 }
+
